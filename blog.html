@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog - Digital Marketing Agency</title>
+    <meta name="description" content="Latest insights, trends, and tips on Web Development, SEO, App Development, and AI.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blog-hero {
+            background-color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        .blog-hero h1 {
+            margin-bottom: 10px;
+            color: #111;
+        }
+        .blog-hero p {
+            color: #555;
+            font-size: 1.1rem;
+        }
+        .blog-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .blog-card {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #bc13fe;
+        }
+        .blog-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #f0f0f0;
+        }
+        .blog-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-date {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .blog-title {
+            font-size: 1.25rem;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.4;
+            font-weight: bold;
+        }
+        .blog-excerpt {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        .read-more {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            align-self: flex-start;
+            transition: color 0.3s;
+        }
+        .read-more:hover {
+            color: #bc13fe;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">AGENCY</a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="blog-hero">
+            <h1>Our Blog</h1>
+            <p>Insights, trends, and strategies to help your business grow.</p>
+        </section>
+
+        <div class="blog-container">
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://placehold.co/600x400?text=SEO+Trends" alt="SEO Trends 2025" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-date">January 15, 2025</span>
+                        <h2 class="blog-title">Top SEO Trends to Watch in 2025</h2>
+                        <p class="blog-excerpt">Discover the latest changes in search engine algorithms and how to stay ahead of the competition with voice search and AI-driven SEO.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://placehold.co/600x400?text=AI+Business" alt="AI in Business" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-date">January 10, 2025</span>
+                        <h2 class="blog-title">How AI Agents Are Revolutionizing Customer Support</h2>
+                        <p class="blog-excerpt">Learn how implementing AI chatbots and workflow automation can reduce costs and improve customer satisfaction 24/7.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://placehold.co/600x400?text=Web+Dev" alt="Web Development" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-date">January 05, 2025</span>
+                        <h2 class="blog-title">Why Your Business Needs a Custom Website</h2>
+                        <p class="blog-excerpt">A template might be cheap, but a custom website builds brand authority. Here is why investing in custom development pays off.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>We provide top-tier digital solutions including Web, App, LMS, and AI development to help your business grow.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p>Email: coreseo-global@gmail.com</p>
+                <p>Phone: +91 97118 29692</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Digital Marketing Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Digital Marketing Agency</title>
+    <meta name="description" content="Explore our professional services: Web Development, SEO, App Development, LMS Solutions, and AI Agents.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .services-hero {
+            background-color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        .services-hero h1 {
+            margin-bottom: 10px;
+            color: #111;
+        }
+        .services-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .section-block {
+            margin-bottom: 60px;
+        }
+        .section-block h2 {
+            color: #2563eb;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        .sub-services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 10px;
+        }
+        .sub-service-box {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: 1px solid #eee;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .sub-service-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+        .sub-service-box h3 {
+            color: #bc13fe;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+        }
+        .sub-service-box p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        .cta-box {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .cta-box a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #fff;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        .cta-box a:hover {
+            background: #eee;
+        }
+
+        /* Pricing Styles */
+        .pricing-section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 1.3rem;
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .pricing-card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 30px 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .pricing-card:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-color: #2563eb;
+            transform: translateY(-5px);
+        }
+        .pricing-card h4 {
+            color: #111;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .pricing-card .price {
+            display: block;
+            font-size: 2rem;
+            color: #2563eb;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .pricing-card .price span {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: normal;
+        }
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 25px 0;
+            text-align: left;
+        }
+        .features-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            color: #555;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+        }
+        .features-list li::before {
+            content: "✓";
+            color: #2563eb;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .pricing-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 12px 0;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background 0.3s;
+            box-sizing: border-box;
+        }
+        .pricing-btn:hover {
+            background: #2563eb;
+        }
+        @media (max-width: 992px) {
+            .pricing-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">AGENCY</a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <h1>Our Services</h1>
+            <p>Innovative digital solutions designed to scale your business.</p>
+        </section>
+
+        <div class="services-container">
+            
+            <!-- Website Development -->
+            <section class="section-block">
+                <h2>Website Development</h2>
+
+                <div class="sub-services-grid">
+                    <div class="sub-service-box">
+                        <h3>Corporate Websites</h3>
+                        <p>Professional, responsive websites that establish your brand authority and communicate your value to clients.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>E-Commerce Solutions</h3>
+                        <p>Secure and scalable online stores with integrated payment gateways to drive sales and manage inventory.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Landing Pages</h3>
+                        <p>High-conversion landing pages optimized for marketing campaigns to generate leads and maximize ROI.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEO Services -->
+            <section class="section-block">
+                <h2>SEO Services</h2>
+
+                <div class="sub-services-grid">
+                    <div class="sub-service-box">
+                        <h3>On-Page SEO</h3>
+                        <p>Optimization of content, HTML tags, and site structure to improve search engine visibility and user relevance.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Off-Page SEO</h3>
+                        <p>Strategic link building and brand reputation management to increase domain authority and rankings.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Technical SEO</h3>
+                        <p>Auditing and fixing backend issues like site speed, crawlability, and mobile performance to ensure a healthy site.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- App Development -->
+            <section class="section-block">
+                <h2>App Development</h2>
+
+                <div class="sub-services-grid">
+                    <div class="sub-service-box">
+                        <h3>iOS Development</h3>
+                        <p>Native iOS applications built with Swift/Objective-C for high performance on Apple devices.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Android Development</h3>
+                        <p>Robust Android apps designed to reach a vast audience with seamless functionality across devices.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Cross-Platform Apps</h3>
+                        <p>Cost-effective development using Flutter or React Native to deploy apps on both iOS and Android from one codebase.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LMS Development -->
+            <section class="section-block">
+                <h2>LMS Development</h2>
+
+                <div class="sub-services-grid">
+                    <div class="sub-service-box">
+                        <h3>Corporate Training LMS</h3>
+                        <p>Platforms for employee onboarding, compliance training, and skill tracking within organizations.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Educational Portals</h3>
+                        <p>Comprehensive systems for schools and universities featuring student management, grading, and virtual classrooms.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Course Marketplaces</h3>
+                        <p>E-learning platforms that allow instructors to create, sell, and manage courses for a global audience.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Agent Development -->
+            <section class="section-block">
+                <h2>AI Agent Development</h2>
+
+                <div class="sub-services-grid">
+                    <div class="sub-service-box">
+                        <h3>Customer Support Bots</h3>
+                        <p>Intelligent chatbots available 24/7 to answer queries, resolve issues, and improve customer satisfaction.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Workflow Automation</h3>
+                        <p>AI agents designed to automate repetitive business tasks, data entry, and scheduling to save time.</p>
+                    </div>
+                    <div class="sub-service-box">
+                        <h3>Data Analysis Agents</h3>
+                        <p>Advanced AI tools that process large datasets to extract insights, predict trends, and aid decision-making.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-box">
+                <h2>Have a project in mind?</h2>
+                <p>Let's discuss how our services can help you achieve your business goals.</p>
+                <a href="contact.html">Contact Us</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>We provide top-tier digital solutions including Web, App, LMS, and AI development to help your business grow.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p>Email: coreseo-global@gmail.com</p>
+                <p>Phone: +91 97118 29692</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Digital Marketing Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

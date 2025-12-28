@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <meta name="description" content="Premium Web, App, LMS & AI Development with SEO Services.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">AGENCY</a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h2>Creating Awesome <span class="gradient-text">Website and Mobile Apps</span></h2>
+                    <p class="hero-subtext">💥 Get a Special Offer Today: Hurry Up 🎉</p>
+                    <button onclick="scrollToSection('services')" class="btn-hero">Explore Our Solutions</button>
+                </div>
+                <div class="hero-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k6Ru8muKKaI?si=5IzcSQy2-jeyXF2N"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-preview" style="background: #fff; padding-bottom: 20px;">
+            <div style="max-width: 900px; margin: auto; text-align: center;">
+                <h3 style="font-size: 2rem; color: #bc13fe; margin-bottom: 20px;">About Our Vision</h3>
+                <p style="font-size: 1.1rem; line-height: 1.6; color: #555;">
+                    We combine technical expertise with creative innovation to deliver robust IT services. From custom
+                    software development to strategic digital marketing and HR outsourcing, we are your partners in
+                    sustainable growth.
+                </p>
+            </div>
+        </section>
+
+        <section id="services" class="services-preview">
+            <h3 style="font-size: 2rem; margin-bottom: 30px; color: #333;">Our Expertise</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=Web+Dev" alt="Website Development">
+                    <h4>Website Development</h4>
+                    <p>Crafting responsive, high-performance websites tailored to your brand identity.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=App+Dev" alt="App Development">
+                    <h4>App Development</h4>
+                    <p>Native and cross-platform mobile applications designed for user engagement.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=SEO" alt="SEO Service">
+                    <h4>SEO Service</h4>
+                    <p>Data-driven strategies to boost your online visibility and traffic.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=LMS" alt="LMS Development">
+                    <h4>LMS Development</h4>
+                    <p>Robust Learning Management Systems tailored for educational and corporate needs.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=AI+Agent" alt="AI Agent Development">
+                    <h4>AI Agent Development</h4>
+                    <p>Intelligent AI agents and automation solutions to enhance business efficiency.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h3>Featured Pricing Plans</h3>
+
+            <h4 class="pricing-category-title">Website Development</h4>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>Web Starter</h4>
+                    <span class="price">$499</span>
+                    <ul class="features-list">
+                        <li>5 Page Responsive Site</li>
+                        <li>Contact Form Integration</li>
+                        <li>Basic SEO Setup</li>
+                        <li>1 Month Support</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Select Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>Web Business</h4>
+                    <span class="price">$1,299</span>
+                    <ul class="features-list">
+                        <li>10-15 Pages</li>
+                        <li>CMS (WordPress/Webflow)</li>
+                        <li>Speed Optimization</li>
+                        <li>3 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Select Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>Web E-Commerce</h4>
+                    <span class="price">$2,499</span>
+                    <ul class="features-list">
+                        <li>Full Online Store</li>
+                        <li>Payment Gateway Setup</li>
+                        <li>Product Management</li>
+                        <li>6 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Select Plan</a>
+                </div>
+            </div>
+
+            <h4 class="pricing-category-title">SEO Services</h4>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>SEO Silver</h4>
+                    <span class="price">$300<span>/mo</span></span>
+                    <ul class="features-list">
+                        <li>5 Keywords</li>
+                        <li>On-Page Optimization</li>
+                        <li>Monthly Reporting</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Start Now</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>SEO Gold</h4>
+                    <span class="price">$800<span>/mo</span></span>
+                    <ul class="features-list">
+                        <li>15 Keywords</li>
+                        <li>Content Strategy</li>
+                        <li>Backlink Building</li>
+                        <li>Bi-Weekly Reporting</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Start Now</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>SEO Platinum</h4>
+                    <span class="price">$1,500<span>/mo</span></span>
+                    <ul class="features-list">
+                        <li>30+ Keywords</li>
+                        <li>Technical SEO Audit</li>
+                        <li>Competitor Analysis</li>
+                        <li>Weekly Reporting</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Start Now</a>
+                </div>
+            </div>
+
+            <h4 class="pricing-category-title">App Development</h4>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>App MVP</h4>
+                    <span class="price">$3,500</span>
+                    <ul class="features-list">
+                        <li>Core Features Only</li>
+                        <li>Standard UI/UX</li>
+                        <li>iOS or Android</li>
+                        <li>2 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Get Quote</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>App Professional</h4>
+                    <span class="price">$8,500</span>
+                    <ul class="features-list">
+                        <li>Advanced Features</li>
+                        <li>Custom UI/UX Design</li>
+                        <li>Cross-Platform (Flutter)</li>
+                        <li>6 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Get Quote</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>App Enterprise</h4>
+                    <span class="price">Custom</span>
+                    <ul class="features-list">
+                        <li>Complex Backend</li>
+                        <li>Scalable Architecture</li>
+                        <li>Full Native Development</li>
+                        <li>Annual Maintenance</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Contact Us</a>
+                </div>
+            </div>
+
+            <h4 class="pricing-category-title">LMS Development</h4>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>LMS Basic</h4>
+                    <span class="price">$2,500</span>
+                    <ul class="features-list">
+                        <li>User Management</li>
+                        <li>Course Uploads</li>
+                        <li>Basic Quizzes</li>
+                        <li>Standard Theme</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>LMS Corporate</h4>
+                    <span class="price">$6,000</span>
+                    <ul class="features-list">
+                        <li>Employee Tracking</li>
+                        <li>Certificate Generation</li>
+                        <li>Live Class Integration</li>
+                        <li>Custom Branding</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>LMS Marketplace</h4>
+                    <span class="price">$12,000+</span>
+                    <ul class="features-list">
+                        <li>Instructor Dashboards</li>
+                        <li>Commission System</li>
+                        <li>Advanced Analytics</li>
+                        <li>Mobile App Included</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Choose Plan</a>
+                </div>
+            </div>
+
+            <h4 class="pricing-category-title">AI Agent Development</h4>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>AI Chatbot</h4>
+                    <span class="price">$1,200</span>
+                    <ul class="features-list">
+                        <li>FAQ Automation</li>
+                        <li>24/7 Availability</li>
+                        <li>Website Integration</li>
+                        <li>Basic Training</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Select Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>AI Workflow</h4>
+                    <span class="price">$3,500</span>
+                    <ul class="features-list">
+                        <li>Task Automation</li>
+                        <li>CRM Integration</li>
+                        <li>Data Entry Agents</li>
+                        <li>Custom Logic</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Select Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h4>AI Custom</h4>
+                    <span class="price">$8,000+</span>
+                    <ul class="features-list">
+                        <li>LLM Fine-Tuning</li>
+                        <li>Predictive Analytics</li>
+                        <li>Proprietary Data Usage</li>
+                        <li>Full Scale Deployment</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-btn">Select Plan</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking-section">
+            <h3>Book a Free Consultation</h3>
+            <p>Schedule a meeting with our experts to discuss your project requirements.</p>
+            <form class="booking-form">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Service Interested In</label>
+                <select required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="web">Website Development</option>
+                    <option value="app">App Development</option>
+                    <option value="seo">SEO Services</option>
+                    <option value="lms">LMS Development</option>
+                    <option value="ai">AI Solutions</option>
+                </select>
+
+                <label>Preferred Date</label>
+                <input type="date" required>
+
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>We provide top-tier digital solutions including Web, App, LMS, and AI development to help your
+                    business grow.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p>Email: coreseo-global@gmail.com</p>
+                <p>Phone: +91 97118 29692</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Digital Marketing Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
